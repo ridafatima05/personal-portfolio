@@ -1,4 +1,3 @@
-// components/Header.tsx
 "use client"; // Ensure it's a client-side component
 
 import React, { useState } from "react";
@@ -7,10 +6,8 @@ import Link from "next/link";
 const HeaderSection: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  
   const toggleMenu = () => setIsMenuOpen(prev => !prev);
 
-  
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -21,12 +18,12 @@ const HeaderSection: React.FC = () => {
   return (
     <header className="bg-gray-900 text-white fixed w-full z-10 shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
-        {/* just a simple Logo */}
+        {/* Logo */}
         <Link href="/" className="text-2xl font-serif font-extrabold hover:text-purple-500">
           RF
         </Link>
 
-        
+        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
           <Link href="/about" onClick={() => scrollToSection("about")} className="hover:text-purple-500">
             About
@@ -45,13 +42,13 @@ const HeaderSection: React.FC = () => {
           </button>
         </div>
 
-    
+        {/* Mobile Menu Button */}
         <button onClick={toggleMenu} className="md:hidden text-2xl">
-          &#9776; 
+          &#9776; {/* Hamburger icon */}
         </button>
       </div>
 
-    
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-gray-800 text-white py-4">
           <div className="flex flex-col space-y-4 px-6">
