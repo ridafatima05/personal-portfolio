@@ -9,7 +9,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols gap-12">
           <div className="text-lg">
             <p>
-              Hello! I'm Rida Fatima, a passionate Frontend
+              Hello! I&apos;m Rida Fatima, a passionate Frontend
               Developer, Graphic Designer, and a dedicated student of the
               Governor IT Initiative GenAI Metaverse program. With a strong
               foundation in web development and UI/UX design, I craft visually
@@ -19,7 +19,7 @@ const AboutSection = () => {
               using modern technologies like HTML5, CSS3, JavaScript, and React.
               As a graphic designer, I also have a keen eye for aesthetics,
               creating striking visuals and brand identities that resonate with
-              audiences. Currently, I’m advancing my knowledge in cutting-edge
+              audiences. Currently, I&apos;m advancing my knowledge in cutting-edge
               technologies as part of the GenAI Metaverse program, where I'm
               exploring the intersection of AI, immersive experiences, and the
               metaverse to build the future of digital interaction. Driven by
