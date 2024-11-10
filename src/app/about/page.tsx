@@ -20,7 +20,7 @@ const AboutSection = () => {
               As a graphic designer, I also have a keen eye for aesthetics,
               creating striking visuals and brand identities that resonate with
               audiences. Currently, I&apos;m advancing my knowledge in cutting-edge
-              technologies as part of the GenAI Metaverse program, where I'm
+              technologies as part of the GenAI Metaverse program, where I&apos;m
               exploring the intersection of AI, immersive experiences, and the
               metaverse to build the future of digital interaction. Driven by
               curiosity and creativity, I am always looking for new challenges
